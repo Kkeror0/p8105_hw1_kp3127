@@ -369,13 +369,11 @@ display: none;
 ## ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
 <pre class="r"><code>library(&quot;moderndive&quot;) 
 data(&quot;early_january_weather&quot;)
-names(early_january_weather)</code></pre>
-<pre><code>##  [1] &quot;origin&quot;     &quot;year&quot;       &quot;month&quot;      &quot;day&quot;        &quot;hour&quot;      
-##  [6] &quot;temp&quot;       &quot;dewp&quot;       &quot;humid&quot;      &quot;wind_dir&quot;   &quot;wind_speed&quot;
-## [11] &quot;wind_gust&quot;  &quot;precip&quot;     &quot;pressure&quot;   &quot;visib&quot;      &quot;time_hour&quot;</code></pre>
+names(&quot;early_january_weather&quot;)</code></pre>
+<pre><code>## NULL</code></pre>
 <p>The <code>early_january_weather</code> dataset contains 358 rows and
-15 columns of hourly weather observations.</p>
-<p>Key variables include:<br />
+15 columns of hourly weather observations.<br />
+Key variables include:<br />
 <strong>time_hour</strong>, which records the date and hour of each
 measurement (the first entry is 2013-01-01 01:00:00).<br />
 <strong>temp</strong>, the air temperature in degrees Fahrenheit with a

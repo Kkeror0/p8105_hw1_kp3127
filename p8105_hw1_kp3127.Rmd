@@ -9,11 +9,10 @@ date: "2025-09-19"
 library("tidyverse")
 library("moderndive") 
 data("early_january_weather")
-names(early_january_weather)
+names("early_january_weather")
 ```
 
-The `early_january_weather` dataset contains `r nrow(early_january_weather)` rows and `r ncol(early_january_weather)` columns of hourly weather observations.
-
+The `early_january_weather` dataset contains `r nrow(early_january_weather)` rows and `r ncol(early_january_weather)` columns of hourly weather observations.  
 Key variables include:  
 **time_hour**, which records the date and hour of each 
 measurement (the first entry is `r early_january_weather$time_hour[1]`).  
